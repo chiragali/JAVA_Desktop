@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="RentalExpert" verbose="1" >
+    <test name="ContractLifeCycle" >
+        <classes>
+            <class name="com.por.expert.ContractLifeCycle.ContractLifeCycle" />
+            <class name="com.por.expert.Overbook.Overbook" />
+            <class name="com.por.expert.ManualContinuation.ManualContinuation" />
+        </classes>
+    </test>
+</suite>
